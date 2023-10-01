@@ -4,12 +4,11 @@ import 'package:bellboy/utils/colors.dart';
 import 'package:bellboy/utils/dimensions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:email_validator/email_validator.dart';
 
 class LoginPage extends StatelessWidget {
   final LoginController loginController = Get.find();
   bool _keyboardVisible = true;
-
+ 
   @override
   Widget build(BuildContext context) {
     _keyboardVisible = MediaQuery.of(context).viewInsets.bottom != 0;
@@ -34,7 +33,7 @@ class LoginPage extends StatelessWidget {
                     'Log in ',
                     style: TextStyle(
                         fontSize: Dimensions.font26,
-                        color: CustomColor.Black,
+                        color: CustomColor.black,
                         fontWeight: FontWeight.bold),
                   ),
                 ),

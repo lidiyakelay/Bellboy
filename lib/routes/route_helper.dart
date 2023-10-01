@@ -10,7 +10,7 @@ class RouteHelper {
   static String getSplash() => '$splash';
 
   static List<GetPage> routes = [
-    GetPage(name: splash, page: () => SplashScreen()),
+    GetPage(name: splash, page: () => const SplashScreen()),
     GetPage(name: initial, page: () => LoginPage()),
   ];
 }

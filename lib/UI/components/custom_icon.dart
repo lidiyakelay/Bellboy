@@ -1,4 +1,3 @@
-import 'package:bellboy/utils/colors.dart';
 import 'package:bellboy/utils/dimensions.dart';
 import 'package:flutter/material.dart';
 
